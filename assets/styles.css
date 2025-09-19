@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@500;700&display=swap');
 
 :root {
-    /* Brand palette */
     --brand-green-muted: #9BAA92;
     --brand-green-pastel: #DDEAD4;
     --brand-beige-warm: #FAF3DC;
-    
-    /* MOD: Added a warm glow color for shadows */
-    --brand-glow: rgba(255, 190, 120, 0.2); 
+    --brand-glow: rgba(255, 190, 120, 0.25);
+    --brand-flame: #FF9F68;
+    --brand-dark: #3B3A36;
 
-    /* Semantic tokens */
     --bg: var(--brand-beige-warm);
     --panel: #ffffff;
     --muted: #6b7a65;
@@ -18,17 +16,19 @@
     --border: var(--brand-green-pastel);
     --accent: var(--brand-green-muted);
 
-    /* MOD: Added font variables for better control */
     --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
     --font-serif: 'Lora', serif;
 }
 
-/* MOD: Added a keyframe animation for a subtle flame flicker effect */
 @keyframes flicker {
     0%, 100% { box-shadow: 0 4px 20px 0 var(--brand-glow); }
     50% { box-shadow: 0 4px 25px 5px var(--brand-glow); }
 }
 
+@keyframes candle-glow {
+    0%, 100% { background: radial-gradient(circle at 50% 20%, #FAF3DC, #F6EFD6); }
+    50% { background: radial-gradient(circle at 50% 20%, #FFF3E2, #FAF3DC); }
+}
 
 * { box-sizing: border-box; }
 html, body { height: 100%; }
@@ -36,8 +36,8 @@ body {
     margin: 0;
     font-family: var(--font-sans);
     color: var(--text);
-    /* MOD: Switched to a radial gradient for a central glow effect */
     background: radial-gradient(circle at 50% 20%, #FAF3DC, #F6EFD6);
+    animation: candle-glow 6s ease-in-out infinite alternate;
 }
 
 .container {
@@ -49,10 +49,10 @@ body {
     position: sticky;
     top: 0;
     z-index: 10;
-    /* MOD: Warmed up the background and slightly increased blur for a softer feel */
-    background: rgba(250, 248, 238, 0.8);
-    backdrop-filter: blur(10px);
+    background: rgba(250, 248, 238, 0.85);
+    backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
+    box-shadow: 0 2px 12px rgba(155, 170, 146, 0.1);
 }
 .header-inner {
     display: flex;
@@ -61,8 +61,8 @@ body {
     padding: 14px 0;
 }
 .brand { display: inline-flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; }
-.brand-text { font-weight: 700; letter-spacing: 0.5px; font-family: var(--font-serif); }
-.brand-logo { width: 34px; height: 34px; object-fit: contain; display: block; }
+.brand-text { font-weight: 700; letter-spacing: 1px; font-family: var(--font-serif); font-size: 20px; }
+.brand-logo { width: 38px; height: 38px; object-fit: contain; display: block; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.1)); }
 
 .nav {
     display: flex;
@@ -74,126 +74,118 @@ body {
     font-weight: 500;
     padding-bottom: 4px;
     border-bottom: 2px solid transparent;
-    /* MOD: Added smooth transition */
     transition: color 0.3s ease, border-color 0.3s ease;
 }
 .nav-link:hover {
     color: var(--text);
-    /* MOD: Elegant underline effect on hover */
     border-bottom-color: var(--brand);
 }
 .nav-link.is-active { color: var(--text); }
 
-/* Main section */
-.intro { padding: 28px 0 10px; text-align: center; }
+.intro { padding: 36px 0 16px; text-align: center; }
 .intro-title {
     margin: 0 0 6px;
-    font-size: 32px; /* MOD: Increased size for impact */
-    font-family: var(--font-serif); /* MOD: Applied serif font */
-    letter-spacing: 0.5px;
-    font-weight: 500;
+    font-size: 36px;
+    font-family: var(--font-serif);
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: var(--brand-dark);
+    text-shadow: 0 2px 8px rgba(255, 200, 150, 0.25);
 }
-.intro-subtitle { margin: 0; color: var(--muted); }
+.intro-subtitle { margin: 0; color: var(--muted); font-style: italic; }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 22px; /* MOD: Increased gap slightly */
-    padding: 24px 0 60px;
+    gap: 26px;
+    padding: 28px 0 70px;
 }
 
-/* Card styles */
 .card {
     background: linear-gradient(180deg, #ffffff 0%, #fffaf0 100%);
     border: 1px solid var(--border);
-    border-radius: 14px;
+    border-radius: 16px;
     overflow: hidden;
-    /* MOD: Smoother, more elegant transition */
     transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
                 box-shadow 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),
                 border-color 0.4s ease;
 }
 .card:hover {
-    transform: translateY(-6px); /* MOD: Increased lift */
+    transform: translateY(-8px);
     border-color: var(--brand);
-    /* MOD: The "Candle Glow" effect. A combination of a structural shadow and a warm glow. */
-    box-shadow: 0 12px 30px rgba(154, 170, 146, 0.2), 0 0 20px var(--brand-glow);
+    box-shadow: 0 14px 34px rgba(154, 170, 146, 0.25), 0 0 28px var(--brand-glow);
 }
 .card-link { color: inherit; text-decoration: none; display: block; height: 100%; }
 .card-media {
     aspect-ratio: 4/3;
     width: 100%;
-    object-fit: cover; /* MOD: Changed to cover for better image display */
+    object-fit: cover;
     display: block;
     border-bottom: 1px solid var(--border);
+    transition: transform 0.5s ease;
 }
-.card-body { padding: 16px; display: grid; gap: 6px; }
-.card-name { margin: 0; font-size: 17px; font-weight: 600; font-family: var(--font-serif); }
-.card-fragrance { margin: 0; color: var(--muted); font-size: 13px; }
-.card-price { margin: 4px 0 0; color: var(--brand); font-weight: 600; font-size: 15px; }
-.card-desc { margin: 0; color: var(--muted); font-size: 12px; }
+.card:hover .card-media { transform: scale(1.05); }
+.card-body { padding: 18px; display: grid; gap: 8px; }
+.card-name { margin: 0; font-size: 18px; font-weight: 600; font-family: var(--font-serif); }
+.card-fragrance { margin: 0; color: var(--muted); font-size: 14px; }
+.card-price { margin: 4px 0 0; color: var(--brand-flame); font-weight: 700; font-size: 16px; }
+.card-desc { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.6; }
 
-
-/* Detail page */
 .product-detail { display: grid; grid-template-columns: 1fr; gap: 28px; padding: 28px 0 60px; }
 @media (min-width: 860px) { .product-detail { grid-template-columns: 1.1fr 1fr; align-items: start; gap: 40px; } }
 
 .detail-media {
     width: 100%;
-    border-radius: 16px;
+    border-radius: 18px;
     border: 1px solid var(--border);
     display: block;
-    /* MOD: Added a subtle shadow to lift the image */
-    box-shadow: 0 8px 24px rgba(154, 170, 146, 0.15);
+    box-shadow: 0 8px 24px rgba(154, 170, 146, 0.15), 0 0 20px rgba(255, 200, 150, 0.1);
 }
 .detail-title { 
-    margin: 0 0 6px; 
-    font-size: 36px; 
-    font-family: var(--font-serif); /* MOD: Applied serif font */
-    font-weight: 500;
+    margin: 0 0 8px; 
+    font-size: 38px; 
+    font-family: var(--font-serif);
+    font-weight: 600;
+    color: var(--brand-dark);
+    text-shadow: 0 2px 10px rgba(255, 190, 120, 0.3);
 }
 .detail-fragrance { margin: 0 0 10px; color: var(--muted); }
-.detail-price { margin: 10px 0 14px; color: var(--brand); font-weight: 700; font-size: 20px; }
-.detail-desc { margin: 0 0 24px; color: var(--muted); line-height: 1.7; }
+.detail-price { margin: 12px 0 16px; color: var(--brand-flame); font-weight: 700; font-size: 22px; }
+.detail-desc { margin: 0 0 26px; color: var(--muted); line-height: 1.8; }
 
-/* MOD: Added a new button style for "Add to Cart" etc. */
 .btn {
     display: inline-block;
-    background-color: var(--brand);
+    background: linear-gradient(135deg, var(--brand-flame), var(--brand-green-muted));
     color: #fff;
-    padding: 12px 24px;
+    padding: 13px 26px;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     font-weight: 600;
     text-decoration: none;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .btn:hover {
-    transform: translateY(-2px);
-    /* MOD: Apply the flicker animation on hover */
-    animation: flicker 1.5s infinite;
+    transform: translateY(-3px);
+    animation: flicker 1.6s infinite;
 }
 
-
-/* Other UI elements */
-.meta { display: grid; gap: 8px; padding: 16px; background: rgba(255, 255, 255, 0.5); border: 1px solid var(--border); border-radius: 12px; }
+.meta { display: grid; gap: 8px; padding: 16px; background: rgba(255, 255, 255, 0.55); border: 1px solid var(--border); border-radius: 12px; }
 .meta-row { display: flex; justify-content: space-between; color: var(--muted); font-size: 14px; }
 
-.back-link { display: inline-block; margin: 18px 0 10px; color: var(--accent); text-decoration: none; font-weight: 500; }
-.site-footer { border-top: 1px solid var(--border); color: var(--muted); margin-top: 40px; }
-.site-footer .container { padding: 30px 0; text-align: center; }
+.back-link { display: inline-block; margin: 20px 0 12px; color: var(--accent); text-decoration: none; font-weight: 500; }
+.site-footer { border-top: 1px solid var(--border); color: var(--muted); margin-top: 50px; }
+.site-footer .container { padding: 32px 0; text-align: center; font-size: 14px; }
 
-/* Mobile tweaks */
 @media (max-width: 599px) {
     .header-inner { padding: 10px 0; }
-    .intro { padding: 18px 0 4px; }
-    .intro-title, .detail-title { font-size: 24px; }
-    .grid { grid-template-columns: 1fr 1fr; gap: 12px; }
-    .card-body { padding: 12px; }
-    .card-name { font-size: 15px; }
-    .card-fragrance { font-size: 12px; }
-    .card-price { font-size: 14px; }
+    .intro { padding: 20px 0 6px; }
+    .intro-title, .detail-title { font-size: 26px; }
+    .grid { grid-template-columns: 1fr 1fr; gap: 14px; }
+    .card-body { padding: 14px; }
+    .card-name { font-size: 16px; }
+    .card-fragrance { font-size: 13px; }
+    .card-price { font-size: 15px; }
 }
 
 @media (max-width: 380px) {
