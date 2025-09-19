@@ -123,7 +123,7 @@ body {
 .card-media {
     aspect-ratio: 4/3;
     width: 100%;
-    object-fit: contain; /* MOD: Changed to cover for better image display */
+    object-fit: cover; /* MOD: Changed to cover for better image display */
     display: block;
     border-bottom: 1px solid var(--border);
 }
