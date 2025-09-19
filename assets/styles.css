@@ -1,0 +1,117 @@
+:root {
+    /* Brand palette */
+    --brand-green-muted: #9BAA92; /* Muted Green */
+    --brand-green-pastel: #DDEAD4; /* Soft Pastel Green */
+    --brand-beige-warm: #FAF3DC; /* Warm Beige */
+
+    /* Semantic tokens */
+    --bg: var(--brand-beige-warm);
+    --panel: #ffffff;
+    --muted: #6b7a65; /* darker, readable variant from muted green family */
+    --text: #2a2f2a; /* deep neutral for contrast on light bg */
+    --brand: var(--brand-green-muted);
+    --border: var(--brand-green-pastel);
+    --accent: var(--brand-green-muted);
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+    margin: 0;
+    font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: linear-gradient(180deg, #fff 0%, var(--bg) 65%, #f6efd6 100%);
+}
+
+.container {
+    width: min(1100px, 92%);
+    margin: 0 auto;
+}
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: rgba(250,243,220,0.85);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+}
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0;
+}
+.brand { display: inline-flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; }
+.brand-text { font-weight: 700; letter-spacing: 0.5px; }
+.brand-logo { width: 34px; height: 34px; object-fit: contain; display: block; }
+.nav-link {
+    color: var(--muted);
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav-link.is-active { color: var(--text); }
+
+.intro { padding: 28px 0 10px; }
+.intro-title { margin: 0 0 6px; font-size: 28px; }
+.intro-subtitle { margin: 0; color: var(--muted); }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 18px;
+    padding: 24px 0 60px;
+}
+
+/* Mobile tweaks */
+@media (max-width: 599px) {
+    .header-inner { padding: 10px 0; }
+    .intro { padding: 18px 0 4px; }
+    .intro-title { font-size: 22px; }
+    .grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+    .card-body { padding: 12px; }
+    .card-name { font-size: 15px; }
+    .card-fragrance { font-size: 12px; }
+    .card-price { font-size: 14px; }
+    .detail-title { font-size: 22px; }
+}
+
+@media (max-width: 380px) {
+    .grid { grid-template-columns: 1fr; }
+}
+
+.card {
+    background: linear-gradient(180deg, #ffffff 0%, #fffaf0 100%);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.card:hover {
+    transform: translateY(-4px);
+    border-color: var(--brand);
+    box-shadow: 0 10px 24px rgba(154, 170, 146, 0.25);
+}
+.card-link { color: inherit; text-decoration: none; display: block; height: 100%; }
+.card-media { aspect-ratio: 4/3; width: 100%; object-fit: cover; display: block; }
+.card-body { padding: 14px; display: grid; gap: 6px; }
+.card-name { margin: 0; font-size: 16px; font-weight: 600; }
+.card-fragrance { margin: 0; color: var(--muted); font-size: 13px; }
+.card-price { margin: 4px 0 0; color: var(--brand); font-weight: 600; }
+
+.product-detail { display: grid; grid-template-columns: 1fr; gap: 22px; padding: 28px 0 60px; }
+@media (min-width: 860px) { .product-detail { grid-template-columns: 1.1fr 1fr; align-items: start; } }
+
+.detail-media { width: 100%; border-radius: 16px; border: 1px solid var(--border); display: block; }
+.detail-title { margin: 0 0 6px; font-size: 28px; }
+.detail-fragrance { margin: 0; color: var(--muted); }
+.detail-price { margin: 10px 0 14px; color: var(--brand); font-weight: 700; font-size: 18px; }
+.detail-desc { margin: 0 0 20px; color: #c9d2dc; line-height: 1.6; }
+
+.meta { display: grid; gap: 8px; padding: 12px; background: #ffffff; border: 1px solid var(--border); border-radius: 12px; }
+.meta-row { display: flex; justify-content: space-between; color: var(--muted); font-size: 14px; }
+
+.back-link { display: inline-block; margin: 18px 0 10px; color: var(--accent); text-decoration: none; }
+.site-footer { border-top: 1px solid var(--border); color: var(--muted); }
+.site-footer .container { padding: 20px 0; }
+

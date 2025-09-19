@@ -1,0 +1,51 @@
+[
+  {
+    "id": "amber-vanilla",
+    "name": "Eloisen_box",
+    "fragrance": "Warm amber, vanilla bean, tonka",
+    "price": 450,
+    "description": "A cozy blend of golden amber wrapped in creamy vanilla and a whisper of tonka. Perfect for slow evenings and soft playlists.",
+    "image": "amber-vanilla.png",
+    "wax": "Coconut-soy",
+    "wick": "Lead-free cotton",
+    "size": "8 oz",
+    "burnTime": "45 hours"
+  },
+  {
+    "id": "black-fig",
+    "name": "Black Fig",
+    "fragrance": "Ripe fig, cedarwood, cassis",
+    "price": 26,
+    "description": "Lush fig and juicy cassis grounded by dry cedarwood for a refined, modern atmosphere.",
+    "image": "black-fig.png",
+    "wax": "Soy",
+    "wick": "Wood wick",
+    "size": "9 oz",
+    "burnTime": "50 hours"
+  },
+  {
+    "id": "sea-salt-sage",
+    "name": "Sea Salt & Sage",
+    "fragrance": "Ocean air, sea salt, wild sage",
+    "price": 22,
+    "description": "Clean coastal air with mineral sea salt and sun-warmed sage. Bright, refreshing, and airy.",
+    "image": "combo.png",
+    "wax": "Coconut",
+    "wick": "Cotton",
+    "size": "7 oz",
+    "burnTime": "38 hours"
+  },
+  {
+    "id": "rose-oud",
+    "name": "Rose Oud",
+    "fragrance": "Damask rose, oud, saffron",
+    "price": 28,
+    "description": "Velvety rose petals deepened by smoky oud and a hint of saffron. Dramatic and elegant.",
+    "image": "rose-oud.png",
+    "wax": "Soy",
+    "wick": "Cotton",
+    "size": "8 oz",
+    "burnTime": "44 hours"
+  }
+]
+
