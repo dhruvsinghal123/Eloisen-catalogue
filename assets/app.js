@@ -66,9 +66,7 @@ function renderDetail(product) {
             '<div class="meta">' +
                 '<div class="meta-row"><span>Wax</span><span>' + (product.wax || 'Soy blend') + '</span></div>' +
                 '<div class="meta-row"><span>Wick</span><span>' + (product.wick || 'Cotton') + '</span></div>' +
-                '<div class="meta-row"><span>Size</span><span>' + (product.size || '8 oz') + '</span></div>' +
-                '<div class="meta-row"><span>Burn Time</span><span>' + (product.burnTime || '40+ hrs') + '</span></div>' +
-            '</div>' +
+                '<div class="meta-row"><span>Size</span><span>' + (product.size || '8 oz') + '</span></div>' +        
         '</div>';
 }
 

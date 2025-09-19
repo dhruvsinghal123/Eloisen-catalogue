@@ -1,51 +1,82 @@
 [
   {
-    "id": "amber-vanilla",
-    "name": "Eloisen_box",
-    "fragrance": "Warm amber, vanilla bean, tonka",
-    "price": 450,
-    "description": "A cozy blend of golden amber wrapped in creamy vanilla and a whisper of tonka. Perfect for slow evenings and soft playlists.",
-    "image": "amber-vanilla.png",
-    "wax": "Coconut-soy",
+    "id": "Sandalwood",
+    "name": "Sandalwood",
+    "fragrance": "Sandalwood",
+    "price": 222,
+    "description": "The scent of sandalwood whispers ancient forest secrets, filling the air with grounding calm and sacred warmth.",
+    "image": "sandalwood.png",
+    "wax": "soy",
     "wick": "Lead-free cotton",
-    "size": "8 oz",
-    "burnTime": "45 hours"
+    "size": "8 oz"
+    
   },
   {
-    "id": "black-fig",
-    "name": "Black Fig",
-    "fragrance": "Ripe fig, cedarwood, cassis",
-    "price": 26,
-    "description": "Lush fig and juicy cassis grounded by dry cedarwood for a refined, modern atmosphere.",
-    "image": "black-fig.png",
+    "id": "Rosemarry",
+    "name": "Rosemarry",
+    "fragrance": "Rosemarry",
+    "price": 222,
+    "description": "Rosemary’s fresh herbal notes fill your space with clarity and calm, awakening the senses and uplifting the spirit.",
+    "image": "Rosemarry.png",
     "wax": "Soy",
     "wick": "Wood wick",
-    "size": "9 oz",
-    "burnTime": "50 hours"
+    "size": "9 oz"
   },
   {
-    "id": "sea-salt-sage",
-    "name": "Sea Salt & Sage",
-    "fragrance": "Ocean air, sea salt, wild sage",
-    "price": 22,
-    "description": "Clean coastal air with mineral sea salt and sun-warmed sage. Bright, refreshing, and airy.",
-    "image": "combo.png",
+    "id": "Mogra",
+    "name": "Mogra",
+    "fragrance": "Mogra",
+    "price": 222,
+    "description": "Mogra’s intoxicating fragrance fills the air with serenity and invites the essence of a moonlit garden into your home.",
+    "image": "Mogra.png",
     "wax": "Coconut",
     "wick": "Cotton",
-    "size": "7 oz",
-    "burnTime": "38 hours"
+    "size": "7 oz"
   },
   {
-    "id": "rose-oud",
-    "name": "Rose Oud",
-    "fragrance": "Damask rose, oud, saffron",
-    "price": 28,
-    "description": "Velvety rose petals deepened by smoky oud and a hint of saffron. Dramatic and elegant.",
-    "image": "rose-oud.png",
+    "id": "Chamomile",
+    "name": "Chamomile",
+    "fragrance": "Chamomile",
+    "price": 222,
+    "description": "Chamomile’s gentle touch brings comfort and calm, transforming your space into a sanctuary of peaceful light.",
+    "image": "chammomile.png",
     "wax": "Soy",
     "wick": "Cotton",
-    "size": "8 oz",
-    "burnTime": "44 hours"
-  }
+    "size": "8 oz"
+  },
+  {
+  "id": "Cinnamon",
+  "name": "Cinnamon",
+  "fragrance": "Cinnamon",
+  "price": 222,
+  "description": "Cinnamon’s warm embrace fills the room with cozy sweetness—a homecoming for the senses.",
+  "image": "cinnamon.png",
+  "wax": "Soy",
+  "wick": "Cotton",
+  "size": "8 oz"
+},
+{
+  "id": "Chandan & Jasmine",
+  "name": "Chandan & Jasmine",
+  "fragrance": "Chandan & jasmine",
+  "price": 222,
+  "description": "Chandan’s soothing warmth and jasmine’s serene floral notes unite, weaving a tapestry of comfort, elegance, and gentle harmony",
+  "image": "Jasmine.png",
+  "wax": "Soy",
+  "wick": "Cotton",
+  "size": "8 oz"
+},
+{
+  "id": "Cedarwood",
+  "name": "Cedarwood",
+  "fragrance": "Cedarwood fragrance",
+  "price": 222,
+  "description": "Cedarwood’s rich, woody aroma is a walk through ancient forests—grounding, comforting, and full of quiet strength.",
+  "image": "cedarwood.png",
+  "wax": "Soy",
+  "wick": "Cotton",
+  "size": "8 oz"
+}
+
 ]
 

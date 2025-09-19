@@ -3,43 +3,35 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Eloisen Candle Catalogue</title>
+    <title>Hamper Details</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/styles.css">
-    <meta name="description" content="Discover Eloisen candles: curated fragrances, elegant vessels, and thoughtful design.">
+    <meta name="description" content="Eloisen hamper details">
 </head>
 <body>
     <header class="site-header">
         <div class="container header-inner">
             <a class="brand" href="./">
-                <img class="brand-logo" src="assets/images/logo.png" alt="Eloisen logo" width="50" height="50">
-               
+                <img class="brand-logo" src="assets/images/logo.png" alt="Eloisen logo" width="64" height="64">
+                <span class="brand-text">Eloisen</span>
             </a>
             <nav class="nav">
-                <a class="nav-link is-active" href="./">Catalogue</a>
-                <a class="nav-link is-active" href="hampers.html">Hampers</a>
+                <a class="nav-link" href="index.html">Catalogue</a>
+                <a class="nav-link" href="hampers.html">Hampers</a>
             </nav>
         </div>
     </header>
-
     <main class="container">
-        <section class="intro">
-            <h2 class="intro-title">Candle Catalogue</h2>
-            <p class="intro-subtitle">Hand-poured candles crafted with premium wax and fine fragrances.</p>
-        </section>
-
-        <section id="product-grid" class="grid"></section>
+        <a class="back-link" href="hampers.html">← Back to hampers</a>
+        <section id="hamper-detail" class="product-detail"></section>
     </main>
-
     <footer class="site-footer">
         <div class="container">
             <p>© <span id="year"></span> Eloisen. All rights reserved.</p>
         </div>
     </footer>
-
-    <script src="assets/app.js" defer></script>
+    <script src="assets/hamper-detail.js" defer></script>
 </body>
 </html>
-
