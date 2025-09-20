@@ -191,3 +191,20 @@ body {
 @media (max-width: 380px) {
     .grid { grid-template-columns: 1fr; }
 }
+.site-header {
+    min-height: 64px; /* Set your desired header height */
+    height: 64px;     /* Or use the height you want */
+    display: flex;
+    align-items: center;
+}
+
+.header-inner {
+    align-items: center;
+}
+
+.brand-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+}

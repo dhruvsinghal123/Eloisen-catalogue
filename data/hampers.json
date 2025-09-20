@@ -2,7 +2,7 @@
   {
     "id": "2 candles hamper",
     "name": " 2 candles hamper",
-    "fragrance": "Sandalwood, Rose, Cinnamon",
+    "fragrance": "3 different fragrances",
     "price": 450,
     "description": "A joyful bundle of handpicked candles—perfect for celebration.",
     "image": "hamper1.png"
@@ -10,7 +10,7 @@
   {
     "id": "3 candle hamper",
     "name": "3 candle hamper",
-    "fragrance": "Chamomile, Mogra, Rosemary",
+    "fragrance": "3 different fragrances",
     "price": 649,
     "description": "Relax, recharge, and gift wellness with our soothing candle set.",
     "image": "hamper2.png"
@@ -18,17 +18,9 @@
   {
     "id": "4 candle hamper",
     "name": "4 candle hamper",
-    "fragrance": "Chamomissle, Mogra, Rosemary",
+    "fragrance": "3 different fragrances",
     "price": 899,
     "description": "best for deepawali gifting",
     "image": "hamper3.png"
-  },
-  {
-    "id": "handle bag hamper",
-    "name": "handle bag hanper",
-    "fragrance": "Chamomissle, Mogra, Rosemary",
-    "price": 440,
-    "description": "best for deepawali gifting",
-    "image": "hamper4.png"
   }
 ]
