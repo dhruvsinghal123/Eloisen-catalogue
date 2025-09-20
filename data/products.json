@@ -5,7 +5,7 @@
     "fragrance": "Sandalwood",
     "price": 222,
     "description": "The scent of sandalwood whispers ancient forest secrets, filling the air with grounding calm and sacred warmth.",
-    "image": "sandalwood.png",
+    "image": "sandalwood.jpg",
     "wax": "soy",
     "wick": "Lead-free cotton",
     "size": "8 oz"
@@ -17,7 +17,7 @@
     "fragrance": "Rosemarry",
     "price": 222,
     "description": "Rosemary’s fresh herbal notes fill your space with clarity and calm, awakening the senses and uplifting the spirit.",
-    "image": "Rosemarry.png",
+    "image": "Rosemarry.jpg",
     "wax": "Soy",
     "wick": "Wood wick",
     "size": "9 oz"
@@ -28,7 +28,7 @@
     "fragrance": "Mogra",
     "price": 222,
     "description": "Mogra’s intoxicating fragrance fills the air with serenity and invites the essence of a moonlit garden into your home.",
-    "image": "Mogra.png",
+    "image": "Mogra.jpg",
     "wax": "Coconut",
     "wick": "Cotton",
     "size": "7 oz"
@@ -39,7 +39,7 @@
     "fragrance": "Chamomile",
     "price": 222,
     "description": "Chamomile’s gentle touch brings comfort and calm, transforming your space into a sanctuary of peaceful light.",
-    "image": "chammomile.png",
+    "image": "chamomille.jpg",
     "wax": "Soy",
     "wick": "Cotton",
     "size": "8 oz"
@@ -50,18 +50,18 @@
   "fragrance": "Cinnamon",
   "price": 222,
   "description": "Cinnamon’s warm embrace fills the room with cozy sweetness—a homecoming for the senses.",
-  "image": "cinnamon.png",
+  "image": "Chamomille.jpg",
   "wax": "Soy",
   "wick": "Cotton",
   "size": "8 oz"
 },
 {
-  "id": "Chandan & Jasmine",
-  "name": "Chandan & Jasmine",
-  "fragrance": "Chandan & jasmine",
+  "id": "Vanilla",
+  "name": "Vanilla",
+  "fragrance": "Vanilla",
   "price": 222,
-  "description": "Chandan’s soothing warmth and jasmine’s serene floral notes unite, weaving a tapestry of comfort, elegance, and gentle harmony",
-  "image": "Jasmine.png",
+  "description": "Vanilla serene floral notes unite, weaving a tapestry of comfort, elegance, and gentle harmony",
+  "image": "Vanilla.jpg",
   "wax": "Soy",
   "wick": "Cotton",
   "size": "8 oz"
@@ -72,11 +72,46 @@
   "fragrance": "Cedarwood fragrance",
   "price": 222,
   "description": "Cedarwood’s rich, woody aroma is a walk through ancient forests—grounding, comforting, and full of quiet strength.",
-  "image": "cedarwood.png",
+  "image": "cedarwood.jpg",
+  "wax": "Soy",
+  "wick": "Cotton",
+  "size": "8 oz"
+},
+{
+  "id": "Rose",
+  "name": "Rose",
+  "fragrance": "Rose fragrance",
+  "price": 222,
+  "description": "Rosea is a walk through ancient forests—grounding, comforting, and full of quiet strength.",
+  "image": "Rosemarry.jpg",
+  "wax": "Soy",
+  "wick": "Cotton",
+  "size": "8 oz"
+},
+{
+  "id": "Petrichor",
+  "name": "Petrichor",
+  "fragrance": "Earthy Rain fragrance",
+  "price": 222,
+  "description": "Petrichor captures the refreshing scent of first rain on dry soil—earthy, soothing, and deeply nostalgic.",
+  "image": "Petrichor.jpg",
+  "wax": "Soy",
+  "wick": "Cotton",
+  "size": "8 oz"
+},
+{
+  "id": "Lavender",
+  "name": "Lavender",
+  "fragrance": "Lavender fragrance",
+  "price": 222,
+  "description": "Lavender is a calming embrace—floral, fresh, and soothing for the mind and soul.",
+  "image": "Lavender.jpg",
   "wax": "Soy",
   "wick": "Cotton",
   "size": "8 oz"
 }
+
+
 
 ]
 
