@@ -5,11 +5,27 @@
     "fragrance": "Sandalwood",
     "price": 222,
     "description": "The scent of sandalwood whispers ancient forest secrets, filling the air with grounding calm and sacred warmth.",
-    "image": "sandalwood.jpg",
+    "image": "sandalwood.png",
     "wax": "soy",
     "wick": "Lead-free cotton",
     "size": "8 oz"
     
+  },
+   {
+    "id": "3 candle hamper",
+    "name": "3 candle hamper",
+    "fragrance": "3 different fragrances",
+    "price": 649,
+    "description": "Relax, recharge, and gift wellness with our soothing candle set.",
+    "image": "hamper2.png"
+  },
+   {
+    "id": "4 candle hamper",
+    "name": "4 candle hamper",
+    "fragrance": "3 different fragrances",
+    "price": 899,
+    "description": "best for deepawali gifting",
+    "image": "hamper3.png"
   },
   {
     "id": "Rosemarry",
@@ -17,7 +33,7 @@
     "fragrance": "Rosemarry",
     "price": 222,
     "description": "Rosemary’s fresh herbal notes fill your space with clarity and calm, awakening the senses and uplifting the spirit.",
-    "image": "Rosemarry.jpg",
+    "image": "Rosemarry.png",
     "wax": "Soy",
     "wick": "Wood wick",
     "size": "9 oz"
@@ -28,7 +44,7 @@
     "fragrance": "Mogra",
     "price": 222,
     "description": "Mogra’s intoxicating fragrance fills the air with serenity and invites the essence of a moonlit garden into your home.",
-    "image": "Mogra.jpg",
+    "image": "Mogra.png",
     "wax": "Coconut",
     "wick": "Cotton",
     "size": "7 oz"
@@ -39,7 +55,7 @@
     "fragrance": "Chamomile",
     "price": 222,
     "description": "Chamomile’s gentle touch brings comfort and calm, transforming your space into a sanctuary of peaceful light.",
-    "image": "Chamomille.jpg",
+    "image": "Chamomille.png",
     "wax": "Soy",
     "wick": "Cotton",
     "size": "8 oz"
@@ -50,7 +66,7 @@
   "fragrance": "Cinnamon",
   "price": 222,
   "description": "Cinnamon’s warm embrace fills the room with cozy sweetness—a homecoming for the senses.",
-  "image": "Chamomille.jpg",
+  "image": "Chamomille.png",
   "wax": "Soy",
   "wick": "Cotton",
   "size": "8 oz"
@@ -61,7 +77,7 @@
   "fragrance": "Vanilla",
   "price": 222,
   "description": "Vanilla serene floral notes unite, weaving a tapestry of comfort, elegance, and gentle harmony",
-  "image": "Vanilla.jpg",
+  "image": "Vanilla.png",
   "wax": "Soy",
   "wick": "Cotton",
   "size": "8 oz"
@@ -72,7 +88,7 @@
   "fragrance": "Cedarwood fragrance",
   "price": 222,
   "description": "Cedarwood’s rich, woody aroma is a walk through ancient forests—grounding, comforting, and full of quiet strength.",
-  "image": "cedarwood.jpg",
+  "image": "cedarwood.png",
   "wax": "Soy",
   "wick": "Cotton",
   "size": "8 oz"
@@ -83,7 +99,7 @@
   "fragrance": "Rose fragrance",
   "price": 222,
   "description": "Rosea is a walk through ancient forests—grounding, comforting, and full of quiet strength.",
-  "image": "Rosemarry.jpg",
+  "image": "Rosemarry.png",
   "wax": "Soy",
   "wick": "Cotton",
   "size": "8 oz"
@@ -94,7 +110,7 @@
   "fragrance": "Earthy Rain fragrance",
   "price": 222,
   "description": "Petrichor captures the refreshing scent of first rain on dry soil—earthy, soothing, and deeply nostalgic.",
-  "image": "Petrichor.jpg",
+  "image": "Petrichor.png",
   "wax": "Soy",
   "wick": "Cotton",
   "size": "8 oz"
@@ -105,7 +121,7 @@
   "fragrance": "Lavender fragrance",
   "price": 222,
   "description": "Lavender is a calming embrace—floral, fresh, and soothing for the mind and soul.",
-  "image": "Lavender.jpg",
+  "image": "Lavender.png",
   "wax": "Soy",
   "wick": "Cotton",
   "size": "8 oz"
