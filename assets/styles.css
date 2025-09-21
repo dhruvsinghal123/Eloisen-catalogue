@@ -275,3 +275,9 @@ body {
     flex-wrap: wrap;
     font-size: 15px;
 }
+.footer-label,
+.footer-link {
+  display: block;   /* forces them onto their own line */
+  margin-bottom: 4px; /* optional spacing */
+}
+
