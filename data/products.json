@@ -11,6 +11,14 @@
     "size": "8 oz"
     
   },
+  {
+    "id": "2 candle hamper",
+    "name": "2 candle hamper",
+    "fragrance": "3 different fragrances",
+    "price": 440,
+    "description": "best for deepawali gifting",
+    "image": "hamper4.png"
+  },
    {
     "id": "3 candle hamper",
     "name": "3 candle hamper",
