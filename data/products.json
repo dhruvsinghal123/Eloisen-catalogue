@@ -5,7 +5,7 @@
     "fragrance": "Sandalwood",
     "price": 222,
     "description": "The scent of sandalwood whispers ancient forest secrets, filling the air with grounding calm and sacred warmth.",
-    "image": "sandalwood.png",
+    "image": "Sandalwood.png",
     "wax": "soy",
     "wick": "Lead-free cotton",
     "size": "8 oz"
@@ -121,7 +121,7 @@
   "fragrance": "Lavender fragrance",
   "price": 222,
   "description": "Lavender is a calming embrace—floral, fresh, and soothing for the mind and soul.",
-  "image": "Lavender.png",
+  "image": "lavender.png",
   "wax": "Soy",
   "wick": "Cotton",
   "size": "8 oz"
