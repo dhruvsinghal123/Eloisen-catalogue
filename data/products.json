@@ -7,9 +7,17 @@
     "description": "The scent of sandalwood whispers ancient forest secrets, filling the air with grounding calm and sacred warmth.",
     "image": "Sandalwood.png",
     "wax": "soy",
-    "wick": "Lead-free cotton",
-    "size": "8 oz"
+    "wick": "Lead-free cotton"
     
+    
+  },
+{
+    "id": "3 candle hamper",
+    "name": "3 candle hamper",
+    "fragrance": "3 different fragrances",
+    "price": 649,
+    "description": "Relax, recharge, and gift wellness with our soothing candle set.",
+    "image": "hamper2.png"
   },
   {
     "id": "2 candle hamper",
@@ -17,15 +25,46 @@
     "fragrance": "3 different fragrances",
     "price": 440,
     "description": "best for deepawali gifting",
-    "image": "hamper4.png"
+    "image": "hamper5.png"
   },
    {
-    "id": "3 candle hamper",
-    "name": "3 candle hamper",
+    "id": "2 candle hamper",
+    "name": "2 candle hamper",
     "fragrance": "3 different fragrances",
-    "price": 649,
-    "description": "Relax, recharge, and gift wellness with our soothing candle set.",
-    "image": "hamper2.png"
+    "price": 440,
+    "description": "best for deepawali gifting",
+    "image": "hamper4.png"
+  },
+  
+  {
+    "id": "Rosemarry",
+    "name": "Rosemarry",
+    "fragrance": "Rosemarry",
+    "price": 222,
+    "description": "Rosemary’s fresh herbal notes fill your space with clarity and calm, awakening the senses and uplifting the spirit.",
+    "image": "Rosemarry.png",
+    "wax": "Soy",
+    "wick": "Wood wick"
+  },
+  {
+    "id": "Mogra",
+    "name": "Mogra",
+    "fragrance": "Mogra",
+    "price": 222,
+    "description": "Mogra’s intoxicating fragrance fills the air with serenity and invites the essence of a moonlit garden into your home.",
+    "image": "Mogra.png",
+    "wax": "Coconut",
+    "wick": "Cotton"
+  },
+  {
+    "id": "Chamomile",
+    "name": "Chamomile",
+    "fragrance": "Chamomile",
+    "price": 222,
+    "description": "Chamomile’s gentle touch brings comfort and calm, transforming your space into a sanctuary of peaceful light.",
+    "image": "Chamomille.png",
+    "wax": "Soy",
+    "wick": "Cotton"
   },
    {
     "id": "4 candle hamper",
@@ -36,39 +75,6 @@
     "image": "hamper3.png"
   },
   {
-    "id": "Rosemarry",
-    "name": "Rosemarry",
-    "fragrance": "Rosemarry",
-    "price": 222,
-    "description": "Rosemary’s fresh herbal notes fill your space with clarity and calm, awakening the senses and uplifting the spirit.",
-    "image": "Rosemarry.png",
-    "wax": "Soy",
-    "wick": "Wood wick",
-    "size": "9 oz"
-  },
-  {
-    "id": "Mogra",
-    "name": "Mogra",
-    "fragrance": "Mogra",
-    "price": 222,
-    "description": "Mogra’s intoxicating fragrance fills the air with serenity and invites the essence of a moonlit garden into your home.",
-    "image": "Mogra.png",
-    "wax": "Coconut",
-    "wick": "Cotton",
-    "size": "7 oz"
-  },
-  {
-    "id": "Chamomile",
-    "name": "Chamomile",
-    "fragrance": "Chamomile",
-    "price": 222,
-    "description": "Chamomile’s gentle touch brings comfort and calm, transforming your space into a sanctuary of peaceful light.",
-    "image": "Chamomille.png",
-    "wax": "Soy",
-    "wick": "Cotton",
-    "size": "8 oz"
-  },
-  {
   "id": "Cinnamon",
   "name": "Cinnamon",
   "fragrance": "Cinnamon",
@@ -76,8 +82,7 @@
   "description": "Cinnamon’s warm embrace fills the room with cozy sweetness—a homecoming for the senses.",
   "image": "Chamomille.png",
   "wax": "Soy",
-  "wick": "Cotton",
-  "size": "8 oz"
+  "wick": "Cotton"
 },
 {
   "id": "Vanilla",
@@ -87,8 +92,7 @@
   "description": "Vanilla serene floral notes unite, weaving a tapestry of comfort, elegance, and gentle harmony",
   "image": "Vanilla.png",
   "wax": "Soy",
-  "wick": "Cotton",
-  "size": "8 oz"
+  "wick": "Cotton"
 },
 {
   "id": "Cedarwood",
@@ -98,8 +102,7 @@
   "description": "Cedarwood’s rich, woody aroma is a walk through ancient forests—grounding, comforting, and full of quiet strength.",
   "image": "cedarwood.png",
   "wax": "Soy",
-  "wick": "Cotton",
-  "size": "8 oz"
+  "wick": "Cotton"
 },
 {
   "id": "Rose",
@@ -109,8 +112,7 @@
   "description": "Rosea is a walk through ancient forests—grounding, comforting, and full of quiet strength.",
   "image": "Rosemarry.png",
   "wax": "Soy",
-  "wick": "Cotton",
-  "size": "8 oz"
+  "wick": "Cotton"
 },
 {
   "id": "Petrichor",
@@ -120,8 +122,7 @@
   "description": "Petrichor captures the refreshing scent of first rain on dry soil—earthy, soothing, and deeply nostalgic.",
   "image": "Petrichor.png",
   "wax": "Soy",
-  "wick": "Cotton",
-  "size": "8 oz"
+  "wick": "Cotton"
 },
 {
   "id": "Lavender",
@@ -131,8 +132,7 @@
   "description": "Lavender is a calming embrace—floral, fresh, and soothing for the mind and soul.",
   "image": "lavender.png",
   "wax": "Soy",
-  "wick": "Cotton",
-  "size": "8 oz"
+  "wick": "Cotton"
 }
 
 
